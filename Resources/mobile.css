@@ -1,0 +1,122 @@
+@media screen and (max-width: 1120px) {
+  
+  
+    /* nav starts here */
+  .mobile{
+    display: flex;
+    position: fixed;
+    width: 100%;
+  }
+  
+    /* nav ends here */
+    /* header starts here */
+  
+  .main-head{
+    display: flex;
+  }
+  
+  .nav{
+    display: none;
+  }
+  .about-us{
+    margin: 140px 0 0 30px;
+    font-size: small;
+    line-height: 2;
+  }
+  .about-us button{
+    height: 60px;
+    width: 271.33px;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+  
+    /* header ends here */
+    
+    /* body section starts here */
+    .catalog{
+      display: block;
+    }
+  
+    .catalog-items_holder1{
+      width: auto;
+      height: 350px;
+    }
+  
+    .catalog-holder{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .catalog-holder h3{
+      font-size: 38px;
+      width: 249px;
+      height: 58px;
+      /* text-align: center; */
+  }
+  
+  .catalog-holder p{
+    margin-top: 25px;
+  
+  }
+  
+  .catalog-holder button{
+    margin-top: 80px;
+    height: 69px;
+    width: 240px;
+    font-size: 200%;
+  
+  }
+    /* body section ends here*/
+    
+    /* footer section starts here */
+    footer {
+      flex-direction: column;
+        flex-direction: column;
+        /* padding: 20px; */
+        text-align: center;
+        /* width: 100%; */
+    }
+  
+    .explorer{
+     
+      justify-content: space-between;
+      padding: 20px;
+      margin: 0;
+      /* margin-bottom: 20px; */
+      
+      }
+  
+      .explorer h3{
+        color: white;
+        display: flex;
+        font-size: 24px;
+    }
+    
+    .explorer button{
+        background: white;
+        /* padding: 26px 24px; */
+        border-radius: 30px;
+        /* width: 274px; */
+        /* height: 87px; */
+        color: tomato;
+        /* font-size: 100; */
+        border: none;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .footer-items {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+      justify-content: center;
+      /* width: 100%; */
+    }
+  
+  
+  
+    /* footer section ends here */
+  }
+  
